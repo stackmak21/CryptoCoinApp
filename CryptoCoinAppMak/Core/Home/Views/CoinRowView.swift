@@ -29,7 +29,7 @@ struct CoinRowView: View {
                 .frame(width: UIScreen.main.bounds.width/3.5, alignment: .trailing)
             }
 
-//            .font(.subheadline)
+            .font(.subheadline)
         
     }
 }
