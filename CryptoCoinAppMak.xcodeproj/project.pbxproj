@@ -26,6 +26,8 @@
 		F990E3722B09563400DC4314 /* MarketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E3712B09563400DC4314 /* MarketData.swift */; };
 		F990E3762B0C17C600DC4314 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E3752B0C17C600DC4314 /* MarketDataService.swift */; };
 		F990E3782B11CAAA00DC4314 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E3772B11CAAA00DC4314 /* PortfolioView.swift */; };
+		F990E37C2B11D8D200DC4314 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E37B2B11D8D200DC4314 /* XMarkButton.swift */; };
+		F990E37E2B11DF4500DC4314 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E37D2B11DF4500DC4314 /* CoinLogoView.swift */; };
 		F999C5B52AF701E800703EB0 /* CryptoCoinAppMakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999C5B42AF701E800703EB0 /* CryptoCoinAppMakApp.swift */; };
 		F999C5B72AF701E800703EB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999C5B62AF701E800703EB0 /* ContentView.swift */; };
 		F999C5BC2AF701E900703EB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F999C5BB2AF701E900703EB0 /* Preview Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		F990E3712B09563400DC4314 /* MarketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketData.swift; sourceTree = "<group>"; };
 		F990E3752B0C17C600DC4314 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		F990E3772B11CAAA00DC4314 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		F990E37B2B11D8D200DC4314 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		F990E37D2B11DF4500DC4314 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		F999C5B12AF701E800703EB0 /* CryptoCoinAppMak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCoinAppMak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F999C5B42AF701E800703EB0 /* CryptoCoinAppMakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoinAppMakApp.swift; sourceTree = "<group>"; };
 		F999C5B62AF701E800703EB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			children = (
 				F990E3572B00DD9800DC4314 /* CoinImageView.swift */,
 				F990E35D2B00E4D300DC4314 /* CoinImageViewModel.swift */,
+				F990E37D2B11DF4500DC4314 /* CoinLogoView.swift */,
 			);
 			name = CoinImage;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				F999C5CE2AF7129700703EB0 /* CircleButton */,
 				F990E3632B0587B200DC4314 /* SearchBarView.swift */,
 				F990E36D2B0941C500DC4314 /* StatisticsView.swift */,
+				F990E37B2B11D8D200DC4314 /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				F916CD552AFF9D790017B51C /* CoinDataService.swift in Sources */,
 				F916CD4A2AF7CA730017B51C /* CoinRowView.swift in Sources */,
 				F916CD522AFD9D6C0017B51C /* HomeViewModel.swift in Sources */,
+				F990E37C2B11D8D200DC4314 /* XMarkButton.swift in Sources */,
 				F990E3722B09563400DC4314 /* MarketData.swift in Sources */,
 				F999C5B72AF701E800703EB0 /* ContentView.swift in Sources */,
 				F990E3602B01785000DC4314 /* LocalFileManager.swift in Sources */,
@@ -310,6 +317,7 @@
 				F990E3642B0587B200DC4314 /* SearchBarView.swift in Sources */,
 				F990E3532B00B34700DC4314 /* NetworkingManager.swift in Sources */,
 				F999C5C62AF70E6800703EB0 /* Color.swift in Sources */,
+				F990E37E2B11DF4500DC4314 /* CoinLogoView.swift in Sources */,
 				F990E3702B09494600DC4314 /* HomeStatsView.swift in Sources */,
 				F990E3762B0C17C600DC4314 /* MarketDataService.swift in Sources */,
 				F990E35E2B00E4D300DC4314 /* CoinImageViewModel.swift in Sources */,
