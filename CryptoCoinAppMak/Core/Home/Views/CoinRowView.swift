@@ -66,6 +66,9 @@ extension CoinRowView{
             Text(coin.currentHoldings?.asNumberString() ?? "0")
         }
         .foregroundStyle(Color.theme.accent)
+        .onAppear {
+            print("CoinRowView \(coin.symbol.uppercased()) : \(coin.currentHoldings?.asNumberString() ?? "-")")
+            }
     }
     
     private var rightColumn: some View {

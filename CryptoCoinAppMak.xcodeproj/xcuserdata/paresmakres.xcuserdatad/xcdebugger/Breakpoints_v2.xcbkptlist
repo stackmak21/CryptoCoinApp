@@ -3,4 +3,214 @@
    uuid = "0DD4635C-D7D7-4672-8DD2-E4B7587017BA"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "097D2244-0A58-4BBB-B502-B5E60F204ECE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/CoinImageService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getCoinImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF45F099-DFFD-47EB-89AE-214D68E361CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Core/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "mapGlobalMarketData(marketData:portfolioCoins:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9CFD418A-CF9F-4488-B39B-3DD2C5FB863F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Core/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "mapGlobalMarketData(marketData:portfolioCoins:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9CFD418A-CF9F-4488-B39B-3DD2C5FB863F - 8e3a75bc9662ca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (CryptoCoinAppMak.Coin) -&gt; Swift.Double in CryptoCoinAppMak.HomeViewModel.mapGlobalMarketData(marketData: Swift.Optional&lt;CryptoCoinAppMak.MarketData&gt;, portfolioCoins: Swift.Array&lt;CryptoCoinAppMak.Coin&gt;) -&gt; Swift.Array&lt;CryptoCoinAppMak.Statistics&gt;"
+                  moduleName = "CryptoCoinAppMak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paresmakres/Desktop/CryptoCoinAppMak/CryptoCoinAppMak/Core/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9CFD418A-CF9F-4488-B39B-3DD2C5FB863F - 8e3a75bc9662ca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (CryptoCoinAppMak.Coin) -&gt; Swift.Double in CryptoCoinAppMak.HomeViewModel.mapGlobalMarketData(marketData: Swift.Optional&lt;CryptoCoinAppMak.MarketData&gt;, portfolioCoins: Swift.Array&lt;CryptoCoinAppMak.Coin&gt;) -&gt; Swift.Array&lt;CryptoCoinAppMak.Statistics&gt;"
+                  moduleName = "CryptoCoinAppMak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paresmakres/Desktop/CryptoCoinAppMak/CryptoCoinAppMak/Core/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3539671D-3E1F-45FF-A41D-2DBEBB036B1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "update(entity:amount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7553B0C-677C-4C26-B6C5-F83DD96E31A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "add(coin:amount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CED86BE-EE8D-4F5C-B8AD-34B95DCDA407"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "updatePortfolio(coin:amount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CED86BE-EE8D-4F5C-B8AD-34B95DCDA407 - 1fd8228ac9a7c694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCoinAppMak.PortfolioDataService.updatePortfolio(coin: CryptoCoinAppMak.Coin, amount: Swift.Double) -&gt; ()"
+                  moduleName = "CryptoCoinAppMak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paresmakres/Desktop/CryptoCoinAppMak/CryptoCoinAppMak/Services/PortfolioDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+               <Location
+                  uuid = "6CED86BE-EE8D-4F5C-B8AD-34B95DCDA407 - 1fd8228ac9a7c694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoCoinAppMak.PortfolioDataService.updatePortfolio(coin: CryptoCoinAppMak.Coin, amount: Swift.Double) -&gt; ()"
+                  moduleName = "CryptoCoinAppMak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paresmakres/Desktop/CryptoCoinAppMak/CryptoCoinAppMak/Services/PortfolioDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "706778E4-9891-426B-9638-B6735E00318F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96AC2DD2-D860-4C26-B10F-CB00EFA4ED8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "applyChanges()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80860956-AA36-42BD-8DC3-0A53AFAB770E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoCoinAppMak/Services/PortfolioDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getPortfolio()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

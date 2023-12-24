@@ -118,7 +118,7 @@ struct Coin: Identifiable, Codable, Equatable {
     }
     
     static func == (lhs: Coin, rhs: Coin) -> Bool {
-        return lhs.id == rhs.id
+        return lhs.id == rhs.id && lhs.currentHoldings == rhs.currentHoldings
     }
 }
 

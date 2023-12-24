@@ -20,16 +20,23 @@ struct PortfolioView: View {
                 VStack(alignment: .leading, spacing: 0.0){
                     SearchBarView(searchText: $vm.searchText)
                     coinLogoList
-                    if selectedCoin != nil{
+                    if selectedCoin != nil {
                         portfolioInputSection
                     }
                 }
+                .navigationTitle("Edit Portfolio")
+                .navigationBarTitleDisplayMode(.large)
             }
-            .navigationTitle("Edit Portfolio")
+            
             .toolbar{
                 ToolbarItem(placement: .topBarLeading) { XMarkButton() }
                 ToolbarItem(placement: .topBarTrailing) {
                     trailingNavBarButtons
+                }
+            }
+            .onChange(of: vm.searchText) { oldValue, newValue in
+                if newValue.isEmpty{
+                    removeSelectedCoin()
                 }
             }
         }
@@ -47,19 +54,20 @@ extension PortfolioView {
     private var coinLogoList: some View {
         ScrollView(.horizontal){
             LazyHStack(spacing: 10){
-                ForEach(vm.allCoins){ coin in
+                ForEach(vm.searchText.isEmpty ? vm.portfolioCoins : vm.allCoins ){ coin in
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .padding(4)
                         .onTapGesture {
                             withAnimation(.easeIn) {
-                                selectedCoin = coin
+                                updateSelectedCoin(coin: coin)
                             }
                         }
                     
                         .background{
                             RoundedRectangle(cornerRadius: 10)
-                                .fill(Material.regular)
+
+                                .stroke(selectedCoin?.id == coin.id ? Color.theme.green : Color.clear ,lineWidth: 1)
                         }
                 }
                 
@@ -69,6 +77,18 @@ extension PortfolioView {
             
         }
         .scrollIndicators(ScrollIndicatorVisibility.hidden)
+    }
+    
+    private func updateSelectedCoin(coin: Coin){
+        selectedCoin = coin
+        
+        if let portfolioCoin = vm.portfolioCoins.first(where: {$0.id == coin.id}),
+           let amount = portfolioCoin.currentHoldings {
+            print("\(portfolioCoin.currentHoldings ?? 0) updateSelectedCoin PortfolioView" )
+            quantityText = "\(amount)"
+        } else {
+            quantityText = ""
+        }
     }
     
     private func getCurrentValue() -> Double {
@@ -123,7 +143,11 @@ extension PortfolioView {
     }
     
     private func saveButtonPressed(){
-        guard let coin = selectedCoin else { return }
+        guard 
+            let coin = selectedCoin,
+            let amount = Double(quantityText)
+        else { return }
+        vm.updatePortfolio(coin: coin, amount: amount)
         withAnimation(.easeIn) {
             showCheckmark = true
             removeSelectedCoin()

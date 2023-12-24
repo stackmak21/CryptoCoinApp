@@ -15,7 +15,7 @@ class NetworkingManager {
         case unknown
         
         var errorDescription: String? {
-            switch self {
+            switch self{
             case .badUrlResponse(url: let url):
                 return "[🔥] Bad response from URL: \(url)"
             case .unknown:

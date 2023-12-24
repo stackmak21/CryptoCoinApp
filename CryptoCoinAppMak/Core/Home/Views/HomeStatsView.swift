@@ -27,6 +27,6 @@ struct HomeStatsView: View {
 }
 
 #Preview {
-    HomeStatsView(showPortfolio: .constant(false))
+    HomeStatsView(showPortfolio: .constant(true))
         .environmentObject(Preview.dev.homeVm)
 }
