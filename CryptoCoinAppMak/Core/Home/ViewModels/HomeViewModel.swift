@@ -53,6 +53,8 @@ class HomeViewModel: ObservableObject {
             })
             .store(in: &cancellables)
         
+        //Test commit
+        
         
         // update market data
         marketDataService.$marketData
