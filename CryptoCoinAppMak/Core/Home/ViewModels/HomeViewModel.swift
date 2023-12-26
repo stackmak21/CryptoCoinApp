@@ -48,12 +48,10 @@ class HomeViewModel: ObservableObject {
             .receive(on: DispatchQueue.main)
             .sink(receiveValue: {[weak self] returnedCoins in
                 self?.portfolioCoins = returnedCoins
-                let btc = self?.portfolioCoins.first(where: { $0.id == "bitcoin" })
-                print("\(btc?.currentHoldings ?? 0) subscriberValue HomeViewModel")
             })
             .store(in: &cancellables)
         
-        //Test commit
+        
         
         
         // update market data
