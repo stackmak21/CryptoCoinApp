@@ -51,7 +51,7 @@ class HomeViewModel: ObservableObject {
             })
             .store(in: &cancellables)
         
-        
+        // Test
         
         
         // update market data
